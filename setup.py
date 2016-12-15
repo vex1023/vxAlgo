@@ -11,16 +11,16 @@ import vxAlgo as source_packages
 here = os.path.abspath(os.path.dirname(__file__))
 
 # 包名称
-name = 'package_name'
+name = 'vxAlgo'
 # 版本号从源代码包里获取
 version = source_packages.__version__
 # 项目首页
-home_pages = 'http://github.com/'
+home_pages = 'http://github.com/vex1023'
 # 作者相关信息
 author = source_packages.__author__
 author_email = source_packages.__email__
 # 项目简介
-description = '一句话的项目介绍'
+description = '简单的策略执行框架'
 # 测试用例
 test_suite = 'tests.test_vxAlgo'
 # 项目分类
